@@ -22,5 +22,14 @@ public class PersonaDTO {
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
+
+    @Override
+    public String toString() {
+        System.out.println("Todo esto no sirve");
+        return "PersonaDTO{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                '}';
+    }
 }
 
