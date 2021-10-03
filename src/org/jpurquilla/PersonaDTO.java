@@ -25,7 +25,7 @@ public class PersonaDTO {
 
     @Override
     public String toString() {
-        System.out.println("Todo esto no sirve");
+        //System.out.println("Todo esto no sirve");
         return "PersonaDTO{" +
                 "nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
